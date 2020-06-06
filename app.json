@@ -2,7 +2,7 @@
   "name": "Strapi",
   "description": "Strapi Heroku deployment",
   "keywords": ["strapi", "heroku"],
-  "repository": "https://github.com/strapi/strapi-starter-angular-blog",
+  "repository": "https://github.com/gingertechie/simplenews",
   "env": {
     "PROJECT_PATH": {
       "description": "Backend project path",
@@ -26,7 +26,7 @@
   "image": "heroku/nodejs",
   "buildpacks": [
     {
-      "url": "https://github.com/timanovsky/subdir-heroku-buildpack"
+      "url": "https://github.com/gingertechie/subdir-heroku-buildpack"
     },
     {
       "url": "heroku/nodejs"
