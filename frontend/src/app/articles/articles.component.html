@@ -13,7 +13,7 @@
           <div class="uk-card uk-card-muted">
             <div *ngIf="article.image" class="uk-card-media-top">
               <img
-                src="https://simplenews-backend.herokuapp.com{{ article.image.url }}"
+                src="{{ article.image.url }}"
                 alt=""
                 height="100"
               />
@@ -42,7 +42,7 @@
             <div class="uk-card uk-card-muted">
               <div *ngIf="article.image" class="uk-card-media-top">
                 <img
-                  src="https://simplenews-backend.herokuapp.com{{ article.image.url }}"
+                  src="{{ article.image.url }}"
                   alt=""
                   height="100"
                 />
