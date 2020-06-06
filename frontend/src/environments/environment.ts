@@ -3,8 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false,
-  apiURL: 'http:localhost:1337',
+  production: true,
+  apiURL: 'https:simplenews-backend.herokuapp.com',
 };
 
 /*
